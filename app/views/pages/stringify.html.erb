@@ -1,0 +1,5 @@
+<% if params[:name] %>
+	<h1><%= params[:name] %> is so <%= params[:adjective] =%></h1>
+	<% else %>
+	<h1><%= @text %></h1>
+<% end %>
